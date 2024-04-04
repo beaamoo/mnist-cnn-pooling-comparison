@@ -1,0 +1,17 @@
+# .gitignore
+
+# Ignore environment file
+.env
+/venv
+
+# Ignore dataset
+*idx1-ubyte
+*idx3-ubyte
+*gz
+
+# Ignore model
+*.json
+*.npy
+
+*.DS_Store
+
