@@ -2,6 +2,14 @@
 
 This project involves training a Convolutional Neural Network (CNN) from scratch on the MNIST dataset to recognize handwritten digits. It explores the impact of different pooling methods (Max Pooling vs. Average Pooling) on the model's performance.
 
+### Max Pooling
+- **Strengths**: Max pooling is effective at capturing the presence of features in small regions of the input image, making the detection of features somewhat invariant to scale and orientation changes. It tends to be more efficient for highlighting the most significant features in an image.
+- **Use Cases**: Max pooling is often preferred in models where the exact location of features isn't as important as their rough approximation or presence, which is useful in many classification tasks.
+### Average Pooling
+- **Strengths**: Average pooling reduces the spatial dimensions by calculating the average value of each patch on the feature map. This method is good at preserving background features and can be beneficial in cases where the uniformity of the feature map is important.
+- **Use Cases**: Average pooling can be advantageous in scenarios where it's important to maintain the smoothness of features, such as in texture classification or areas where the background information is valuable.
+
+
 ## Getting Started
 
 ### Download Dataset
